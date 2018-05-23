@@ -1,18 +1,17 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rhino.PlugIns;
 
 // Plug-in Description Attributes - all of these are optional.
 // These will show in Rhino's option dialog, in the tab Plug-ins.
-[assembly: PlugInDescription(DescriptionType.Address, "-")]
-[assembly: PlugInDescription(DescriptionType.Country, "-")]
-[assembly: PlugInDescription(DescriptionType.Email, "-")]
+[assembly: PlugInDescription(DescriptionType.Address, "Carrer Roger de Flor 32, Barcelona")]
+[assembly: PlugInDescription(DescriptionType.Country, "Spain")]
+[assembly: PlugInDescription(DescriptionType.Email, "luis@mcneel.com")]
 [assembly: PlugInDescription(DescriptionType.Phone, "-")]
 [assembly: PlugInDescription(DescriptionType.Fax, "-")]
-[assembly: PlugInDescription(DescriptionType.Organization, "-")]
+[assembly: PlugInDescription(DescriptionType.Organization, "McNeel EU")]
 [assembly: PlugInDescription(DescriptionType.UpdateUrl, "-")]
-[assembly: PlugInDescription(DescriptionType.WebSite, "-")]
+[assembly: PlugInDescription(DescriptionType.WebSite, "http://www.v4design.eu")]
 
 // Icons should be Windows .ico files and contain 32-bit images in the following sizes: 16, 24, 32, 48, and 256.
 // This is a Rhino 6-only description.
@@ -27,7 +26,7 @@ using Rhino.PlugIns;
 [assembly: AssemblyDescription("V4D4Rhino utility plug-in")]
 
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("McNeel EU")]
 [assembly: AssemblyProduct("V4D4Rhino")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]

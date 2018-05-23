@@ -3,6 +3,6 @@
 # V4D4Rhino
 Rhino3d plugin to access [V4Design](https://v4design.eu/) Repository Assets
 
-
+![flag_white_high_ec](https://user-images.githubusercontent.com/1014562/40412232-fcbcda74-5e72-11e8-8857-47f7206d7949.jpg)
 
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 779962

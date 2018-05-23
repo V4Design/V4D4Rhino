@@ -82,8 +82,8 @@ namespace V4D4Rhino
         {
 #if DEBUG
             //use localhost
-            //Browser = new ChromiumWebBrowser( @"http://localhost:9090/" );
-            Browser = new ChromiumWebBrowser(@"http://v4design.eu");
+            Browser = new ChromiumWebBrowser( @"http://localhost:8080/" );
+            //Browser = new ChromiumWebBrowser(@"http://v4design.eu");
 #else
             //use dist files
             var path = Directory.GetParent(Assembly.GetExecutingAssembly().Location);

@@ -27,3 +27,7 @@ Follow these steps after pulling new source:
 
 1. From the V4DPluginView directory, run `npm install`
 2. From the V4DPluginView directory, run `npm run dev`
+
+# Releases
+
+TODO

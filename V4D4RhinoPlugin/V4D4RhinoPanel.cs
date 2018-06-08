@@ -9,9 +9,6 @@ namespace V4D4Rhino
     [System.Runtime.InteropServices.Guid("4C10B3EF-7033-4461-9FC3-A0C902D16B88")]
     public partial class V4D4RhinoPanel : UserControl
     {
-
-        public ChromiumWebBrowser ChromeBrowser;
-
         /// <summary>
         /// Returns the ID of this panel.
         /// </summary>

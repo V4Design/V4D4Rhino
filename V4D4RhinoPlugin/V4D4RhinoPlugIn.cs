@@ -82,7 +82,7 @@ namespace V4D4Rhino
         {
 #if DEBUG
             //use localhost
-            Browser = new ChromiumWebBrowser( @"http://localhost:8080/" );
+            Browser = new ChromiumWebBrowser( @"http://localhost:7070/" );
             //Browser = new ChromiumWebBrowser(@"http://v4design.eu");
 #else
             //use dist files
@@ -108,8 +108,6 @@ namespace V4D4Rhino
 
             Browser.Dock = System.Windows.Forms.DockStyle.Fill;
         }
-
-
 
         protected override void OnShutdown()
         {

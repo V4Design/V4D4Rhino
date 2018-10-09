@@ -8,13 +8,29 @@
             </v-card-title>
             <v-container>
                 <v-card flat>
-                    something else here
+                    Location: Barcelona, Spain
+                </v-card>
+                <v-card flat>
+                    Year: 1897
+                </v-card>
+                <v-divider></v-divider>
+                <v-card flat>
+                    Vertices: 1,654,081
+                </v-card>
+                <v-card flat>
+                    Faces: 99,701
+                </v-card>
+                <v-card flat>
+                    Disjoint Meshes: 266
+                </v-card>
+                <v-card flat>
+                    Model Size: 266mb
                 </v-card>
             </v-container>
-
             <v-divider></v-divider>
             <v-card-actions>
                 <v-spacer></v-spacer>
+                <v-btn flat>Add to model</v-btn>
                 <v-btn icon>
                     <v-icon>favorite</v-icon>
                 </v-btn>

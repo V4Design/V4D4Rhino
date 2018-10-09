@@ -7,6 +7,8 @@ Rhino3d plugin to access [V4Design](https://v4design.eu/) Repository Assets
 
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 779962
 
+[![Build status](https://ci.appveyor.com/api/projects/status/nr9r3j4dcl8o7f1g?svg=true)](https://ci.appveyor.com/project/fraguada/v4d4rhino)
+
 # Development
 
 This project is developed on Windows 10, Visual Studio 2017 and is composed of two projects:

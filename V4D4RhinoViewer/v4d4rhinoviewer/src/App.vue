@@ -18,7 +18,6 @@
       <v-tabs-items v-model="active">
         <v-tab-item key='query'>
           <v-card flat>
-            <!--<GarmentsManager></GarmentsManager>-->
             <QueryForm></QueryForm>
           </v-card>
         </v-tab-item>

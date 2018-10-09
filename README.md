@@ -17,16 +17,16 @@ This project is developed on Windows 10, Visual Studio 2017 and is composed of t
 Follow these steps when starting to develop:
 
 1. Clone this repo
-2. From the V4DPluginView directory, run `npm install`
-3. From the V4DPluginView directory, run `npm run dev`
+2. From the V4DView directory, run `npm install`
+3. From the V4DView directory, run `npm run dev`
 4. Open the V4D4Rhino.sln in Visual Studio 2017
 5. Restore NuGet Packages
 6. Start Visual Studio debugging. Rhino will be launched.
 
 Follow these steps after pulling new source:
 
-1. From the V4DPluginView directory, run `npm install`
-2. From the V4DPluginView directory, run `npm run dev`
+1. From the V4DView directory, run `npm install`
+2. From the V4DView directory, run `npm run dev`
 
 # Releases
 

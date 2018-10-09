@@ -12,21 +12,25 @@ This project has received funding from the European Union’s Horizon 2020 resea
 This project is developed on Windows 10, Visual Studio 2017 and is composed of two projects:
 
 - V4D4RhinoPlugin: The Rhino plugin, written in csharp and utilising RhinoCommon, CefSharp, and Newtonsoft.Json
-- V4DPluginView: A Vue.js+Webpack project for building the UI for the V4D4RhinoPlugin.
+- V4DRhinoViewer: A Vue.js (cli-3) project for building the UI for the V4D4RhinoPlugin. Uses Vuetify.js for UI components.
 
 Follow these steps when starting to develop:
 
-1. Clone this repo
-2. From the V4DView directory, run `npm install`
-3. From the V4DView directory, run `npm run dev`
-4. Open the V4D4Rhino.sln in Visual Studio 2017
+1. Clone or fork this repo
+2. From the `v4d4rhinoviewer` directory, run `npm install`
+3. From the `v4d4rhinoviewer` directory, run `npm run serve`
+4. Open the `V4D4Rhino.sln` in Visual Studio 2017
 5. Restore NuGet Packages
 6. Start Visual Studio debugging. Rhino will be launched.
 
 Follow these steps after pulling new source:
 
-1. From the V4DView directory, run `npm install`
-2. From the V4DView directory, run `npm run dev`
+1. From the `v4d4rhinoviewer` directory, run `npm install`
+2. From the `v4d4rhinoviewer` directory, run `npm run serve`
+3. Open the `V4D4Rhino.sln` in Visual Studio 2017
+4. Start Visual Studio debugging. Rhino will be launched.
+
+To contribute, commit changes to a development branch and open a pull request.
 
 # Releases
 

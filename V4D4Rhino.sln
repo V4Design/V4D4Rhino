@@ -10,6 +10,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository Files", "Reposit
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "V4D4RhinoViewer", "V4D4RhinoViewer\", "{BB386CFF-2214-400A-BA10-5D7C364D9F90}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49987"
+		Debug.AspNetCompiler.PhysicalPath = "V4D4RhinoViewer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49987\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49987"
+		Release.AspNetCompiler.PhysicalPath = "V4D4RhinoViewer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49987\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49987"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +40,10 @@ Global
 		{AC679F1F-B99F-4B35-9AFB-3284C5371266}.Debug|Any CPU.Build.0 = Debug|x64
 		{AC679F1F-B99F-4B35-9AFB-3284C5371266}.Release|Any CPU.ActiveCfg = Release|x64
 		{AC679F1F-B99F-4B35-9AFB-3284C5371266}.Release|Any CPU.Build.0 = Release|x64
+		{BB386CFF-2214-400A-BA10-5D7C364D9F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB386CFF-2214-400A-BA10-5D7C364D9F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB386CFF-2214-400A-BA10-5D7C364D9F90}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB386CFF-2214-400A-BA10-5D7C364D9F90}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
